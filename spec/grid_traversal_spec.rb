@@ -6,7 +6,7 @@ describe LargestProduct do
 
   it "take a right to left" do
 
-    expect(largest_product.right_and_left_check).to eq(48477312)
+    expect(largest_product.row_check).to eq(48477312)
   end
 
   it "multiplies 4 numbers in a column" do
@@ -21,7 +21,7 @@ describe LargestProduct do
 
   it "finds the largest product counter diagonally in sets of four" do
 
-    expect(largest_product.counter_diagonal_check).to eq(8781696)
+    expect(largest_product.counter_diagonal_check).to eq(70600674)
   end
 
 end
