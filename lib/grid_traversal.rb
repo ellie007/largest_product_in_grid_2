@@ -67,4 +67,11 @@ class LargestProduct
     @greatest_number
   end
 
+  def finds_largest_product_in_grid
+    row_check
+    column_check
+    principal_diagonal_check
+    counter_diagonal_check
+  end
+
 end

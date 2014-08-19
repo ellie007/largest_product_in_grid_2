@@ -24,4 +24,8 @@ describe LargestProduct do
     expect(largest_product.counter_diagonal_check).to eq(70600674)
   end
 
+  it "finds the largest product in grid" do
+    expect(largest_product.finds_largest_product_in_grid).to eq(70600674)
+  end
+
 end
